@@ -50,7 +50,14 @@ footer {
 
 /* submited */
 #submited {
-    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+}
+#submited-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 @media screen and (min-width: 821px) {
@@ -251,6 +258,10 @@ footer {
         border: 2px solid #2E75B6;
         font-weight: bold;
     }
+
+    #submited {
+        font-size: 28px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 860px) {
@@ -449,6 +460,10 @@ footer {
         background-color: #F2F2F2;
         border: 2px solid #2E75B6;
         font-weight: bold;
+    }
+
+    #submited {
+        font-size: 28px;
     }
 }
 
