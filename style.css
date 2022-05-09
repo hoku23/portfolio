@@ -6,6 +6,10 @@ div {
     margin: 0;
 }
 
+.google-fonts {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
 /* main */
 .img {
     width: 100%;
