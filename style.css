@@ -1,13 +1,14 @@
 body {
     margin: 0;
     background-color: #F2F2F2;
+    font-family: 'Noto Sans JP', 'Arial', sans-serif;
 }
 div {
     margin: 0;
 }
 
 .google-fonts {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans JP', 'Arial', sans-serif;
 }
 
 /* main */
