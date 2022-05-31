@@ -42,7 +42,9 @@ footer {
     background-color: #2E75B6;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    box-sizing: border-box;
 }
 #copy-right {
     margin: 0;
@@ -51,6 +53,20 @@ footer {
 #copy-right > p {
     color: #fff;
     margin: 0;
+}
+#privacy-policy > a {
+    color: #fff;
+    text-decoration: none;
+}
+#privacy-policy > a:hover {
+    text-decoration: underline;
+}
+.privacy-policy {
+    padding: 100px 10vw;
+}
+.privacy-title {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 /* submited */
@@ -64,6 +80,7 @@ footer {
     bottom: 0;
     left: 0;
 }
+
 
 @media screen and (min-width: 821px) {
     /* header */
