@@ -19,11 +19,11 @@
             </div>
             <nav id="pc-nav">
                 <ul id="nav-list">
-                    <li><a href="">Top</a></li>
-                    <li><a href="#profiles">Profiles</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#works">Works</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li class="nav-li"><a href="">Top</a></li>
+                    <li class="nav-li"><a href="#profiles">Profiles</a></li>
+                    <li class="nav-li"><a href="#skills">Skills</a></li>
+                    <li class="nav-li"><a href="#works">Works</a></li>
+                    <li class="nav-li"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
                 <div id="menu" class="menu">
@@ -45,20 +45,26 @@
             <section id="main">
                 <div class="img main_img">
                     <img src="images/main.jpg" alt="">
-                    <p>Welcome to<br>Hokuto's portfolio!</p>
+                    <p class="is-slide-left">Welcome to<br>Hokuto's portfolio!</p>
+                    <div class="scroll">
+                        <p>SCROLL</p>
+                        <div class="scroll-line">
+                            <div></div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section id="profiles">
-                <h1>Profiles</h1>
-                <div>
+                <h1 class="slideLeftIn">Profiles</h1>
+                <div class="upIn">
                     <h2>Name</h2>
                     <p class="name">Hokuto</p>
                 </div>
-                <div>
+                <div class="upIn">
                     <h2>Mail</h2>
                     <p class="mail">hoku153509@gmail.com</p>
                 </div>
-                <div>
+                <div class="upIn">
                     <h2>Message</h2>
                     <p class="message">
                         2022年3月に筑波大学大学院を卒業後、エンジニアとしての就職を目指してプログラミングの勉強を開始しました。
@@ -68,25 +74,25 @@
                 </div>
             </section>
             <section id="skills">
-                 <h1>Skills</h1>
+                 <h1 class="slideLeftIn">Skills</h1>
                  <div>
-                     <p class="content">
+                     <p class="content upIn">
                         オンラインプログラミングスクールの教材及びオリジナルアプリ開発を通して習得したスキルです。
                      </p>
                      <ul id="skill-list">
-                        <li>HTML/CSS</li>
-                        <li>JavaScript</li>
-                        <li>PHP/Laravel</li>
-                        <li>Java(ORACLE認定 Java SE Bronze 取得)</li>
-                        <li>SQL(オリジナルアプリの開発ではSQLiteを使用しました)</li>
-                        <li>Git/GitHub</li>
-                        <li>Linux</li>
+                        <li class="upIn">HTML/CSS</li>
+                        <li class="upIn">JavaScript</li>
+                        <li class="upIn">PHP/Laravel</li>
+                        <li class="upIn">Java(ORACLE認定 Java SE Bronze 取得)</li>
+                        <li class="upIn">SQL(オリジナルアプリの開発ではSQLiteを使用しました)</li>
+                        <li class="upIn">Git/GitHub</li>
+                        <li class="upIn">Linux</li>
                      </ul>
                  </div>
             </section>
             <section id="works">
-                <h1>Works</h1>
-                <div>
+                <h1 class="slideLeftIn">Works</h1>
+                <div class="upIn">
                     <p class="content">
                         上記のスキルを使用して開発したオリジナルアプリです。
                     </p>
@@ -94,14 +100,14 @@
                 </div>
             </section>
             <section id="contact">
-                <h1>Contact</h1>
-                <div>
+                <h1 class="slideLeftIn">Contact</h1>
+                <div class="upIn">
                     <p class="content">
                         最後までご覧いただきありがとうございました。<br>
                         お仕事のご依頼やメッセージなどありましたら、こちらからお願い致します。
                     </p>
                 </div>
-                <form action="https://api.staticforms.xyz/submit" method="post">
+                <form action="https://api.staticforms.xyz/submit" method="post" class="upIn">
                     <div class="contact-form">
                         <label>氏名</label>
                         <input type="text" name="name">
